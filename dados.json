@@ -190,7 +190,7 @@
     "local": "Taila da Drogaria Vitória",
     "data_hora": "A Definir",
     "etapas": {
-      "Captação": false,
+      "Captação": true,
       "Cadastro Produtos": true,
       "Vinculação Conta": false
     },
@@ -206,15 +206,15 @@
     "local": "Açougue 1 (nome esquecido)",
     "data_hora": "A Definir",
     "etapas": {
-      "Captação": false,
+      "Captação": true,
       "Cadastro Produtos": false,
       "Vinculação Conta": false
     },
-    "status": "Pendente",
+    "status": "Em andamento",
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 15:56",
     "id": "f0381d8e-00c0-43b0-9308-462005d45f0a",
     "missoes": []
   }
