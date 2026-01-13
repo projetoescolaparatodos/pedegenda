@@ -1,0 +1,194 @@
+[
+  {
+    "local": "Róbson",
+    "data_hora": "13/01/2026 - Manhã",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "85c88bdb-da82-4409-a61a-d02ab2e23c35",
+    "missoes": []
+  },
+  {
+    "local": "Amazonina",
+    "data_hora": "13/01/2026 - Manhã",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "27a2d6da-e370-4dfe-a847-5f88c679d289",
+    "missoes": []
+  },
+  {
+    "local": "Bom Gosto",
+    "data_hora": "13/01/2026 - Durante o dia",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "8d2f55ec-679a-4813-9a99-9c64cbaa9744",
+    "missoes": []
+  },
+  {
+    "local": "Açaí do Vizinho da Esquina",
+    "data_hora": "13/01/2026 - Durante o dia",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "b36681bc-0c56-4451-a503-a8b1fb7a05b2",
+    "missoes": []
+  },
+  {
+    "local": "Granja",
+    "data_hora": "15/01/2026 - Durante o dia",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "384548ab-fb36-4a2c-adff-4d2f23a3a1ee",
+    "missoes": []
+  },
+  {
+    "local": "Açougue do Marquinhos",
+    "data_hora": "15/01/2026 - Fim do dia",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "1f71286d-de2b-4590-9a19-cb05107e46a6",
+    "missoes": []
+  },
+  {
+    "local": "Adelson dos Salgados",
+    "data_hora": "16/01/2026 - 07:30",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "0fe548a8-7d0d-45c6-90a0-cad0b25b0e3e",
+    "missoes": []
+  },
+  {
+    "local": "Padeiro (pra roça)",
+    "data_hora": "A Definir",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "5330d404-367f-4b09-ad42-20c877e8243b",
+    "missoes": []
+  },
+  {
+    "local": "Teresinha",
+    "data_hora": "A Definir",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "4a3a878c-150a-48db-9df6-d26eb6981c48",
+    "missoes": []
+  },
+  {
+    "local": "Valéria do Nunes",
+    "data_hora": "A Definir",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "2f22fca3-ef21-4754-8a5e-c9475245c231",
+    "missoes": []
+  },
+  {
+    "local": "Taila da Drogaria Vitória",
+    "data_hora": "A Definir",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "9fa562ad-2b4f-44d3-a7a4-020075ba2fd3",
+    "missoes": []
+  },
+  {
+    "local": "Açougue 1 (nome esquecido)",
+    "data_hora": "A Definir",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "",
+    "id": "f0381d8e-00c0-43b0-9308-462005d45f0a",
+    "missoes": []
+  }
+]
