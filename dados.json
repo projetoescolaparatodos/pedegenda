@@ -3,15 +3,15 @@
     "local": "Róbson",
     "data_hora": "13/01/2026 - Manhã",
     "etapas": {
-      "Captação": false,
-      "Cadastro Produtos": false,
+      "Captação": true,
+      "Cadastro Produtos": true,
       "Vinculação Conta": false
     },
-    "status": "Pendente",
+    "status": "Em andamento",
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 15:52",
     "id": "85c88bdb-da82-4409-a61a-d02ab2e23c35",
     "missoes": []
   },
