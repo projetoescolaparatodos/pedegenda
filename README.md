@@ -83,6 +83,9 @@ o app consegue salvar/carregar o `dados.json` direto do GitHub (ele faz commits 
 python -m streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true --browser.gatherUsageStats false
 ```
 
+Importante: no Render, o Start Command precisa ter `app.py` como texto puro.
+Se você colar um comando onde aparece algo tipo `[app.py](...)`, vai dar erro de bash.
+
 Observações:
 - Isso grava dados no próprio repo. Se não quiser dados públicos, deixe o repo privado.
 - Se duas pessoas salvarem ao mesmo tempo, pode dar conflito; o app avisa.

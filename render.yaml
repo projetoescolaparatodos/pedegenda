@@ -6,9 +6,12 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python -m streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true --browser.gatherUsageStats false
     envVars:
-      - key: DATA_DIR
-        value: /var/data
-    disk:
-      name: pedegenda-data
-      mountPath: /var/data
-      sizeGB: 1
+      # Persistência grátis via GitHub (o token deve ser configurado no painel do Render como Secret)
+      - key: GITHUB_SYNC
+        value: "true"
+      - key: GITHUB_REPO
+        value: projetoescolaparatodos/pedegenda
+      - key: GITHUB_BRANCH
+        value: main
+      - key: GITHUB_DATA_PATH
+        value: dados.json
