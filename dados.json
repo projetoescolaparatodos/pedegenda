@@ -44,15 +44,15 @@
     "local": "Bom Gosto",
     "data_hora": "13/01/2026 - Durante o dia",
     "etapas": {
-      "Captação": false,
-      "Cadastro Produtos": false,
+      "Captação": true,
+      "Cadastro Produtos": true,
       "Vinculação Conta": false
     },
-    "status": "Pendente",
+    "status": "Em andamento",
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 15:53",
     "id": "8d2f55ec-679a-4813-9a99-9c64cbaa9744",
     "missoes": []
   },
