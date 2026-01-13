@@ -190,7 +190,7 @@
     "local": "Taila da Drogaria Vitória",
     "data_hora": "A Definir",
     "etapas": {
-      "Captação": true,
+      "Captação": false,
       "Cadastro Produtos": true,
       "Vinculação Conta": false
     },
