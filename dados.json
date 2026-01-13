@@ -5,13 +5,13 @@
     "etapas": {
       "Captação": true,
       "Cadastro Produtos": true,
-      "Vinculação Conta": false
+      "Vinculação Conta": true
     },
-    "status": "Em andamento",
+    "status": "Concluído",
     "prioridade": "",
     "responsavel": "",
     "notas": "Voltar para fazer o treinamento e controle de estoque ",
-    "ultima_atualizacao": "Por Neo em 13/01/2026 15:52",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 15:53",
     "id": "85c88bdb-da82-4409-a61a-d02ab2e23c35",
     "missoes": [
       {
