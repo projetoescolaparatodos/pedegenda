@@ -150,7 +150,7 @@
     "data_hora": "A Definir",
     "etapas": {
       "Captação": true,
-      "Cadastro Produtos": false,
+      "Cadastro Produtos": true,
       "Vinculação Conta": false
     },
     "status": "Em andamento",
