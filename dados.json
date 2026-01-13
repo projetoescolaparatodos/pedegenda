@@ -69,15 +69,15 @@
     "local": "Açaí do Vizinho da Esquina",
     "data_hora": "13/01/2026 - Durante o dia",
     "etapas": {
-      "Captação": false,
+      "Captação": true,
       "Cadastro Produtos": false,
       "Vinculação Conta": false
     },
-    "status": "Pendente",
+    "status": "Em andamento",
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 15:54",
     "id": "b36681bc-0c56-4451-a503-a8b1fb7a05b2",
     "missoes": []
   },
