@@ -190,15 +190,15 @@
     "local": "Taila da Drogaria Vitória",
     "data_hora": "A Definir",
     "etapas": {
-      "Captação": false,
-      "Cadastro Produtos": false,
+      "Captação": true,
+      "Cadastro Produtos": true,
       "Vinculação Conta": false
     },
-    "status": "Pendente",
+    "status": "Em andamento",
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 15:56",
     "id": "9fa562ad-2b4f-44d3-a7a4-020075ba2fd3",
     "missoes": []
   },
