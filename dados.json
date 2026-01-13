@@ -165,15 +165,15 @@
     "local": "Valéria do Nunes",
     "data_hora": "A Definir",
     "etapas": {
-      "Captação": false,
-      "Cadastro Produtos": false,
+      "Captação": true,
+      "Cadastro Produtos": true,
       "Vinculação Conta": false
     },
-    "status": "Pendente",
+    "status": "Em andamento",
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "Por Neo em 13/01/2026 13:44",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 15:55",
     "id": "2f22fca3-ef21-4754-8a5e-c9475245c231",
     "missoes": [
       {
