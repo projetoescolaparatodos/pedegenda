@@ -149,15 +149,15 @@
     "local": "Teresinha",
     "data_hora": "A Definir",
     "etapas": {
-      "Captação": false,
+      "Captação": true,
       "Cadastro Produtos": false,
       "Vinculação Conta": false
     },
-    "status": "Pendente",
+    "status": "Em andamento",
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 15:54",
     "id": "4a3a878c-150a-48db-9df6-d26eb6981c48",
     "missoes": []
   },
