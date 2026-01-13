@@ -214,8 +214,17 @@
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "Por Neo em 13/01/2026 15:56",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 15:57",
     "id": "f0381d8e-00c0-43b0-9308-462005d45f0a",
-    "missoes": []
+    "missoes": [
+      {
+        "id": "2b7cd7d3-ae75-43ea-a5cd-c938506b768e",
+        "titulo": "Cadastro do produto e vinculação de contas",
+        "data_hora": "13 as 18 horas",
+        "status": "Pendente",
+        "notas": "",
+        "ultima_atualizacao": "Por Neo em 13/01/2026 15:57"
+      }
+    ]
   }
 ]
