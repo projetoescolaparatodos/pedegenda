@@ -13,7 +13,16 @@
     "notas": "Voltar para fazer o treinamento e controle de estoque ",
     "ultima_atualizacao": "Por Neo em 13/01/2026 15:52",
     "id": "85c88bdb-da82-4409-a61a-d02ab2e23c35",
-    "missoes": []
+    "missoes": [
+      {
+        "id": "018a99ea-98ed-4f58-b0c2-efb7fc2ed474",
+        "titulo": "Treinamento Robson",
+        "data_hora": "A definir",
+        "status": "Pendente",
+        "notas": "",
+        "ultima_atualizacao": "Por Neo em 13/01/2026 15:52"
+      }
+    ]
   },
   {
     "local": "Amazonina",
