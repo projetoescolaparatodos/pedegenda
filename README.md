@@ -45,3 +45,18 @@ Senha (para todos): `pedeja2025`
 ## Dados
 
 O app salva em `dados.json` (arquivo local). Por padrão, ele **não** está versionado no git.
+
+### Deploy no Render (sem banco, com persistência)
+
+Para manter os dados sem usar banco, use um **Persistent Disk** e a variável `DATA_DIR`.
+
+- Crie um **Web Service** apontando para este repo.
+- Adicione um **Persistent Disk** e monte em `/var/data`.
+- Configure a env var: `DATA_DIR=/var/data`
+- Start command (Render):
+
+```bash
+python -m streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true --browser.gatherUsageStats false
+```
+
+Assim o `dados.json` fica em `/var/data/dados.json` (persistente).

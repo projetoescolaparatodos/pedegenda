@@ -13,7 +13,10 @@ USUARIOS = {
     "Troio": "pedeja2025",
 }
 
-DATA_FILE = "dados.json"
+DATA_DIR = os.environ.get("DATA_DIR") or os.path.dirname(__file__) or os.getcwd()
+os.makedirs(DATA_DIR, exist_ok=True)
+
+DATA_FILE = os.path.join(DATA_DIR, "dados.json")
 
 ETAPAS_PADRAO = ["Captação", "Cadastro Produtos", "Vinculação Conta"]
 
