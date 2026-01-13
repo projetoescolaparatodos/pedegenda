@@ -52,9 +52,18 @@
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "Por Neo em 13/01/2026 15:53",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 15:54",
     "id": "8d2f55ec-679a-4813-9a99-9c64cbaa9744",
-    "missoes": []
+    "missoes": [
+      {
+        "id": "bb8d0bdf-6221-49cb-b2fb-5a6c37b7d0b2",
+        "titulo": "Visitar para falar do sistema de entregadores e mostrar o catálogo",
+        "data_hora": "13 - 17 horas",
+        "status": "Pendente",
+        "notas": "",
+        "ultima_atualizacao": "Por Neo em 13/01/2026 15:54"
+      }
+    ]
   },
   {
     "local": "Açaí do Vizinho da Esquina",
