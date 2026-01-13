@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Dados locais
+
+dados.json
+
+# Arquivos gerados / temporários
+
+Agenda_Visitas.xlsx
+~$*.xlsx
+~$*.docx
+*.tmp
+
+# (Opcional) mantenha arquivos pessoais fora do repo
+Portfolio_Nalbert_ABNT.docx
