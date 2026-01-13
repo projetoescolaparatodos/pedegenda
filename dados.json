@@ -155,9 +155,18 @@
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "",
+    "ultima_atualizacao": "Por Neo em 13/01/2026 13:44",
     "id": "2f22fca3-ef21-4754-8a5e-c9475245c231",
-    "missoes": []
+    "missoes": [
+      {
+        "id": "0c5a3815-2001-488a-a592-5c1e4751ad46",
+        "titulo": "mostrar a loja no app e vincular conta",
+        "data_hora": "16/01/2026 - 15;00",
+        "status": "Pendente",
+        "notas": "",
+        "ultima_atualizacao": "Por Neo em 13/01/2026 13:44"
+      }
+    ]
   },
   {
     "local": "Taila da Drogaria Vitória",
