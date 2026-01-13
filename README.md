@@ -60,3 +60,29 @@ python -m streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --se
 ```
 
 Assim o `dados.json` fica em `/var/data/dados.json` (persistente).
+
+### Deploy no Render (grátis) com persistência via GitHub (sem banco)
+
+No Render Free o disco é efêmero, então o `dados.json` pode sumir. Se você quiser **persistir de graça** sem banco,
+o app consegue salvar/carregar o `dados.json` direto do GitHub (ele faz commits automaticamente via API).
+
+1) Crie um token no GitHub (Fine-grained PAT):
+- Permissões: **Contents: Read and write**
+- Escopo: apenas o repo `projetoescolaparatodos/pedegenda` (recomendado)
+
+2) No Render, adicione estas env vars:
+- `GITHUB_SYNC=true`
+- `GITHUB_TOKEN=...` (seu token)
+- `GITHUB_REPO=projetoescolaparatodos/pedegenda`
+- `GITHUB_BRANCH=main`
+- `GITHUB_DATA_PATH=dados.json`
+
+3) Start command (Render):
+
+```bash
+python -m streamlit run app.py --server.address 0.0.0.0 --server.port $PORT --server.headless true --browser.gatherUsageStats false
+```
+
+Observações:
+- Isso grava dados no próprio repo. Se não quiser dados públicos, deixe o repo privado.
+- Se duas pessoas salvarem ao mesmo tempo, pode dar conflito; o app avisa.

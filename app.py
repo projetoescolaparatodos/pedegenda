@@ -1,6 +1,10 @@
 import json
 import os
 import uuid
+import base64
+import urllib.error
+import urllib.parse
+import urllib.request
 from datetime import datetime
 
 import pandas as pd
@@ -18,6 +22,15 @@ os.makedirs(DATA_DIR, exist_ok=True)
 
 DATA_FILE = os.path.join(DATA_DIR, "dados.json")
 
+# Persistência opcional via GitHub (útil em hosts com disco efêmero, ex: Render Free)
+GITHUB_SYNC = (os.environ.get("GITHUB_SYNC") or "").strip().lower() in {"1", "true", "yes"}
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN") or ""
+GITHUB_REPO = (os.environ.get("GITHUB_REPO") or "").strip()  # ex: "projetoescolaparatodos/pedegenda"
+GITHUB_BRANCH = (os.environ.get("GITHUB_BRANCH") or "main").strip() or "main"
+GITHUB_DATA_PATH = (os.environ.get("GITHUB_DATA_PATH") or "dados.json").lstrip("/")
+
+_github_last_sha: str | None = None
+
 ETAPAS_PADRAO = ["Captação", "Cadastro Produtos", "Vinculação Conta"]
 
 
@@ -28,7 +41,97 @@ def _rerun() -> None:
     st.experimental_rerun()
 
 
+def _github_api_request(url: str, method: str = "GET", payload: dict | None = None) -> dict:
+    headers = {
+        "Accept": "application/vnd.github+json",
+        "User-Agent": "pedegenda",
+    }
+    if GITHUB_TOKEN:
+        headers["Authorization"] = f"Bearer {GITHUB_TOKEN}"
+
+    data_bytes = None
+    if payload is not None:
+        data_bytes = json.dumps(payload).encode("utf-8")
+        headers["Content-Type"] = "application/json"
+
+    req = urllib.request.Request(url=url, method=method, headers=headers, data=data_bytes)
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            body = resp.read().decode("utf-8")
+            return json.loads(body) if body else {}
+    except urllib.error.HTTPError as e:
+        try:
+            details = e.read().decode("utf-8")
+        except Exception:
+            details = ""
+        raise RuntimeError(f"GitHub API error {e.code}: {details or e.reason}")
+
+
+def github_load_json() -> list[dict] | None:
+    """Carrega dados do GitHub (Contents API). Retorna None se não existir."""
+    global _github_last_sha
+
+    if not (GITHUB_SYNC and GITHUB_TOKEN and GITHUB_REPO):
+        return None
+
+    encoded_path = urllib.parse.quote(GITHUB_DATA_PATH)
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{encoded_path}?ref={urllib.parse.quote(GITHUB_BRANCH)}"
+    try:
+        resp = _github_api_request(url, method="GET")
+    except RuntimeError as e:
+        # 404 = arquivo não existe ainda
+        if "404" in str(e):
+            return None
+        raise
+
+    _github_last_sha = resp.get("sha")
+    content_b64 = (resp.get("content") or "").encode("utf-8")
+    if not content_b64:
+        return None
+
+    decoded = base64.b64decode(content_b64).decode("utf-8")
+    return json.loads(decoded)
+
+
+def github_save_json(data: list[dict], commit_message: str) -> None:
+    """Salva dados no GitHub (Contents API)."""
+    global _github_last_sha
+
+    if not (GITHUB_SYNC and GITHUB_TOKEN and GITHUB_REPO):
+        return
+
+    encoded_path = urllib.parse.quote(GITHUB_DATA_PATH)
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/contents/{encoded_path}"
+    payload = {
+        "message": commit_message,
+        "content": base64.b64encode(json.dumps(data, ensure_ascii=False, indent=2).encode("utf-8")).decode("utf-8"),
+        "branch": GITHUB_BRANCH,
+    }
+    if _github_last_sha:
+        payload["sha"] = _github_last_sha
+
+    resp = _github_api_request(url, method="PUT", payload=payload)
+    _github_last_sha = (resp.get("content") or {}).get("sha") or _github_last_sha
+
+
 def load_data() -> list[dict]:
+    # 1) Tenta GitHub (se habilitado) — útil em host com disco efêmero
+    if GITHUB_SYNC:
+        if not (GITHUB_TOKEN and GITHUB_REPO):
+            st.warning(
+                "GITHUB_SYNC está ligado, mas faltam GITHUB_TOKEN e/ou GITHUB_REPO. "
+                "O app vai usar apenas o arquivo local."
+            )
+        else:
+            try:
+                gh = github_load_json()
+                if gh is not None:
+                    gh = migrate_data(gh)
+                    save_data(gh)
+                    return gh
+            except Exception as e:
+                st.warning(f"Falha ao carregar do GitHub, usando arquivo local. ({e})")
+
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
@@ -167,6 +270,14 @@ def load_data() -> list[dict]:
 def save_data(data: list[dict]) -> None:
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+    # Também salva no GitHub (se habilitado)
+    if GITHUB_SYNC and GITHUB_TOKEN and GITHUB_REPO:
+        try:
+            github_save_json(data, commit_message="Update dados.json")
+        except Exception as e:
+            # Não quebra o app por falha de rede/token; só avisa.
+            st.warning(f"Falha ao salvar no GitHub (dados locais ok). ({e})")
 
 
 def migrate_data(data: list[dict]) -> list[dict]:
