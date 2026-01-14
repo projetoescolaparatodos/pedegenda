@@ -178,6 +178,22 @@
     "missoes": []
   },
   {
+    "id": "7142dcc9-7d2a-41a2-963d-655b8290ec12",
+    "local": "Kaik",
+    "data_hora": "15/01",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "Alta",
+    "responsavel": "Frodo",
+    "notas": "",
+    "ultima_atualizacao": "Por Neo em 14/01/2026 01:21",
+    "missoes": []
+  },
+  {
     "local": "Padeiro (pra roça)",
     "data_hora": "A Definir",
     "etapas": {
@@ -276,19 +292,19 @@
     ]
   },
   {
-    "id": "7142dcc9-7d2a-41a2-963d-655b8290ec12",
-    "local": "Kaik",
-    "data_hora": "15/01",
+    "id": "d0f3eaf6-1f65-4c3e-98b6-fcc033e7d2de",
+    "local": "Jéssica",
+    "data_hora": "16/01 tarde",
     "etapas": {
       "Captação": false,
       "Cadastro Produtos": false,
       "Vinculação Conta": false
     },
     "status": "Pendente",
-    "prioridade": "Alta",
-    "responsavel": "Frodo",
+    "prioridade": "Média",
+    "responsavel": "Neo",
     "notas": "",
-    "ultima_atualizacao": "Por Neo em 14/01/2026 01:21",
+    "ultima_atualizacao": "Por Neo em 14/01/2026 01:23",
     "missoes": []
   }
 ]
