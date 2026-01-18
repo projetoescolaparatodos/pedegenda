@@ -210,6 +210,22 @@
     "missoes": []
   },
   {
+    "id": "8d70cd4f-c58c-41b2-9edb-6b57c271e860",
+    "local": "açougue pastor house",
+    "data_hora": "19/01 manhã",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "Alta",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "Por Neo em 18/01/2026 02:19",
+    "missoes": []
+  },
+  {
     "local": "Padeiro (pra roça)",
     "data_hora": "A Definir",
     "etapas": {
@@ -340,19 +356,19 @@
     "missoes": []
   },
   {
-    "id": "8d70cd4f-c58c-41b2-9edb-6b57c271e860",
-    "local": "açougue pastor house",
-    "data_hora": "19/01 manhã",
+    "id": "9a2f4ba3-7bf9-42c9-b2bd-da74916e3ad5",
+    "local": "Márcio churrasquinho",
+    "data_hora": "19/01 noite",
     "etapas": {
       "Captação": false,
       "Cadastro Produtos": false,
       "Vinculação Conta": false
     },
     "status": "Pendente",
-    "prioridade": "Alta",
+    "prioridade": "Baixa",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "Por Neo em 18/01/2026 02:19",
+    "ultima_atualizacao": "Por Neo em 18/01/2026 02:20",
     "missoes": []
   }
 ]
