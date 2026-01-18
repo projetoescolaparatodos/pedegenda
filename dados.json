@@ -242,6 +242,22 @@
     "missoes": []
   },
   {
+    "id": "012f7226-f352-45d6-915e-4ef6b7c1202f",
+    "local": "marmita 10",
+    "data_hora": "19/01 noite",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "Alta",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "Por Neo em 18/01/2026 02:25",
+    "missoes": []
+  },
+  {
     "local": "Padeiro (pra roça)",
     "data_hora": "A Definir",
     "etapas": {
@@ -284,8 +300,8 @@
     "status": "Em andamento",
     "prioridade": "",
     "responsavel": "",
-    "notas": "",
-    "ultima_atualizacao": "Por Neo em 13/01/2026 15:55",
+    "notas": "VISITAR NA SEGUNDA A TARDE",
+    "ultima_atualizacao": "Por Neo em 18/01/2026 02:27",
     "id": "2f22fca3-ef21-4754-8a5e-c9475245c231",
     "missoes": [
       {
@@ -369,22 +385,6 @@
     "responsavel": "",
     "notas": "",
     "ultima_atualizacao": "Por Neo em 18/01/2026 02:14",
-    "missoes": []
-  },
-  {
-    "id": "012f7226-f352-45d6-915e-4ef6b7c1202f",
-    "local": "marmita 10",
-    "data_hora": "19/01 noite",
-    "etapas": {
-      "Captação": false,
-      "Cadastro Produtos": false,
-      "Vinculação Conta": false
-    },
-    "status": "Pendente",
-    "prioridade": "Alta",
-    "responsavel": "",
-    "notas": "",
-    "ultima_atualizacao": "Por Neo em 18/01/2026 02:25",
     "missoes": []
   }
 ]
