@@ -338,5 +338,21 @@
     "notas": "",
     "ultima_atualizacao": "Por Neo em 18/01/2026 02:14",
     "missoes": []
+  },
+  {
+    "id": "8d70cd4f-c58c-41b2-9edb-6b57c271e860",
+    "local": "açougue pastor house",
+    "data_hora": "19/01 manhã",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "Alta",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "Por Neo em 18/01/2026 02:19",
+    "missoes": []
   }
 ]
