@@ -328,11 +328,11 @@
     "local": "pirakaia",
     "data_hora": "A Definir",
     "etapas": {
-      "Captação": false,
+      "Captação": true,
       "Cadastro Produtos": false,
       "Vinculação Conta": false
     },
-    "status": "Pendente",
+    "status": "Em andamento",
     "prioridade": "Baixa",
     "responsavel": "",
     "notas": "",
