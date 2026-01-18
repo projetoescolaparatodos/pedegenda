@@ -322,5 +322,21 @@
     "notas": "",
     "ultima_atualizacao": "Por Neo em 18/01/2026 02:10",
     "missoes": []
+  },
+  {
+    "id": "4a1e5bfe-857f-4ed9-baa7-b4955c25a351",
+    "local": "pirakaia",
+    "data_hora": "A Definir",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "Baixa",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "Por Neo em 18/01/2026 02:14",
+    "missoes": []
   }
 ]
