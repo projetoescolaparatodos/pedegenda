@@ -194,6 +194,22 @@
     "missoes": []
   },
   {
+    "id": "d0f3eaf6-1f65-4c3e-98b6-fcc033e7d2de",
+    "local": "Jéssica",
+    "data_hora": "16/01 tarde",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "Média",
+    "responsavel": "Neo",
+    "notas": "",
+    "ultima_atualizacao": "Por Neo em 14/01/2026 01:23",
+    "missoes": []
+  },
+  {
     "local": "Padeiro (pra roça)",
     "data_hora": "A Definir",
     "etapas": {
@@ -272,13 +288,13 @@
     "etapas": {
       "Captação": true,
       "Cadastro Produtos": false,
-      "Vinculação Conta": false
+      "Vinculação Conta": true
     },
     "status": "Em andamento",
     "prioridade": "",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "Por Neo em 13/01/2026 15:57",
+    "ultima_atualizacao": "Por Neo em 18/01/2026 02:08",
     "id": "f0381d8e-00c0-43b0-9308-462005d45f0a",
     "missoes": [
       {
@@ -290,21 +306,5 @@
         "ultima_atualizacao": "Por Neo em 13/01/2026 15:57"
       }
     ]
-  },
-  {
-    "id": "d0f3eaf6-1f65-4c3e-98b6-fcc033e7d2de",
-    "local": "Jéssica",
-    "data_hora": "16/01 tarde",
-    "etapas": {
-      "Captação": false,
-      "Cadastro Produtos": false,
-      "Vinculação Conta": false
-    },
-    "status": "Pendente",
-    "prioridade": "Média",
-    "responsavel": "Neo",
-    "notas": "",
-    "ultima_atualizacao": "Por Neo em 14/01/2026 01:23",
-    "missoes": []
   }
 ]
