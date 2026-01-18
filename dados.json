@@ -306,5 +306,21 @@
         "ultima_atualizacao": "Por Neo em 13/01/2026 15:57"
       }
     ]
+  },
+  {
+    "id": "c328597c-c98f-413e-9da9-ae61b6f3bb47",
+    "local": "bom paladar",
+    "data_hora": "A Definir",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "Média",
+    "responsavel": "neon",
+    "notas": "",
+    "ultima_atualizacao": "Por Neo em 18/01/2026 02:10",
+    "missoes": []
   }
 ]
