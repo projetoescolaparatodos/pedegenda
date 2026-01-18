@@ -312,11 +312,11 @@
     "local": "bom paladar",
     "data_hora": "A Definir",
     "etapas": {
-      "Captação": false,
+      "Captação": true,
       "Cadastro Produtos": false,
       "Vinculação Conta": false
     },
-    "status": "Pendente",
+    "status": "Em andamento",
     "prioridade": "Média",
     "responsavel": "neon",
     "notas": "",
