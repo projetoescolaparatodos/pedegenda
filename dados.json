@@ -226,6 +226,22 @@
     "missoes": []
   },
   {
+    "id": "9a2f4ba3-7bf9-42c9-b2bd-da74916e3ad5",
+    "local": "Márcio churrasquinho",
+    "data_hora": "19/01 noite",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "Baixa",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "Por Neo em 18/01/2026 02:20",
+    "missoes": []
+  },
+  {
     "local": "Padeiro (pra roça)",
     "data_hora": "A Definir",
     "etapas": {
@@ -356,8 +372,8 @@
     "missoes": []
   },
   {
-    "id": "9a2f4ba3-7bf9-42c9-b2bd-da74916e3ad5",
-    "local": "Márcio churrasquinho",
+    "id": "012f7226-f352-45d6-915e-4ef6b7c1202f",
+    "local": "marmita 10",
     "data_hora": "19/01 noite",
     "etapas": {
       "Captação": false,
@@ -365,10 +381,10 @@
       "Vinculação Conta": false
     },
     "status": "Pendente",
-    "prioridade": "Baixa",
+    "prioridade": "Alta",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "Por Neo em 18/01/2026 02:20",
+    "ultima_atualizacao": "Por Neo em 18/01/2026 02:25",
     "missoes": []
   }
 ]
