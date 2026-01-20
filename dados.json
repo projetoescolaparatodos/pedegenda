@@ -246,6 +246,22 @@
     "local": "marmita 10",
     "data_hora": "19/01 noite",
     "etapas": {
+      "Captação": true,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Em andamento",
+    "prioridade": "Alta",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "Por Neo em 20/01/2026 20:25",
+    "missoes": []
+  },
+  {
+    "id": "e446375a-8a40-4e6b-93dc-44f0786138fe",
+    "local": "Adeilse na frente da escola",
+    "data_hora": "20/01",
+    "etapas": {
       "Captação": false,
       "Cadastro Produtos": false,
       "Vinculação Conta": false
@@ -254,7 +270,7 @@
     "prioridade": "Alta",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "Por Neo em 18/01/2026 02:25",
+    "ultima_atualizacao": "Por Neo em 20/01/2026 14:31",
     "missoes": []
   },
   {
@@ -385,22 +401,6 @@
     "responsavel": "",
     "notas": "",
     "ultima_atualizacao": "Por Neo em 18/01/2026 02:14",
-    "missoes": []
-  },
-  {
-    "id": "e446375a-8a40-4e6b-93dc-44f0786138fe",
-    "local": "Adeilse na frente da escola",
-    "data_hora": "20/01",
-    "etapas": {
-      "Captação": false,
-      "Cadastro Produtos": false,
-      "Vinculação Conta": false
-    },
-    "status": "Pendente",
-    "prioridade": "Alta",
-    "responsavel": "",
-    "notas": "",
-    "ultima_atualizacao": "Por Neo em 20/01/2026 14:31",
     "missoes": []
   }
 ]
