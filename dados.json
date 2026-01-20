@@ -386,5 +386,21 @@
     "notas": "",
     "ultima_atualizacao": "Por Neo em 18/01/2026 02:14",
     "missoes": []
+  },
+  {
+    "id": "e446375a-8a40-4e6b-93dc-44f0786138fe",
+    "local": "Adeilse na frente da escola",
+    "data_hora": "20/01",
+    "etapas": {
+      "Captação": false,
+      "Cadastro Produtos": false,
+      "Vinculação Conta": false
+    },
+    "status": "Pendente",
+    "prioridade": "Alta",
+    "responsavel": "",
+    "notas": "",
+    "ultima_atualizacao": "Por Neo em 20/01/2026 14:31",
+    "missoes": []
   }
 ]
