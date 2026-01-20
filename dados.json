@@ -119,13 +119,13 @@
     "etapas": {
       "Captação": true,
       "Cadastro Produtos": false,
-      "Vinculação Conta": false
+      "Vinculação Conta": true
     },
     "status": "Em andamento",
     "prioridade": "",
     "responsavel": "",
     "notas": "Sexta feira às 7:30",
-    "ultima_atualizacao": "Por Neo em 13/01/2026 15:57",
+    "ultima_atualizacao": "Por Neo em 20/01/2026 11:14",
     "id": "0fe548a8-7d0d-45c6-90a0-cad0b25b0e3e",
     "missoes": []
   },
