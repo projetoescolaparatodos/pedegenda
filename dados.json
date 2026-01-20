@@ -248,7 +248,7 @@
     "etapas": {
       "Captação": true,
       "Cadastro Produtos": false,
-      "Vinculação Conta": false
+      "Vinculação Conta": true
     },
     "status": "Em andamento",
     "prioridade": "Alta",
@@ -262,15 +262,15 @@
     "local": "Adeilse na frente da escola",
     "data_hora": "20/01",
     "etapas": {
-      "Captação": false,
+      "Captação": true,
       "Cadastro Produtos": false,
       "Vinculação Conta": false
     },
-    "status": "Pendente",
+    "status": "Em andamento",
     "prioridade": "Alta",
     "responsavel": "",
     "notas": "",
-    "ultima_atualizacao": "Por Neo em 20/01/2026 14:31",
+    "ultima_atualizacao": "Por Neo em 20/01/2026 20:25",
     "missoes": []
   },
   {
